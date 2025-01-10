@@ -1,0 +1,51 @@
+<div style=" margin: 0;  padding-top:120px; color: #2C3E50;min-height: 95vh;" class="container-fluid d-flex align-items-center flex-column pb-4  ">
+ 
+    <div class="container-fluid contain text-center mt-4 ">
+    <h1  style="font-size: 40px;font-weight: 700;">CONTACT SECTION</h1>
+    <span class="mt-3 d-flex align-items-center gap-3 justify-content-center pb-3">
+        <div  class="line"></div>
+        <span class="fa-solid fa-star"></span>
+        <div  class="line"></div>
+    </span>
+   <div class=" ps-5 pe-5 m-auto  ">
+
+   </div>
+    </div>  
+    <div class="container  w-100 ps-md-5 pe-md-5 mt-5">
+  
+        
+            <div class="w-100 ps-md-5 pe-md-5" action="">
+                <div class="contain  ps-md-5 pe-md-5  d-flex justify-content-center align-items-center flex-column gap-2">
+
+            <div class="title w-75" [style.top]="data1!='' ? '0px': '27px'">
+                userName:
+               </div>
+    
+                    
+                    <input  class="w-75" type="text" placeholder=" userName"  [(ngModel)]="data1">
+                    <div class="title w-75" [style.top]="data2!='' ? '0px': '27px'">
+                userAge:
+               </div>
+          
+                    <input class="w-75" type="text" placeholder=" userAge"  [(ngModel)]="data2">
+             
+                    <div class="title w-75" [style.top]="data3!='' ? '0px': '27px'">
+                userEmail:
+               </div>
+      
+                    <input class="w-75" type="email" placeholder=" userEmail"  [(ngModel)]="data3">
+           
+                    <div class="title w-75" [style.top]="data4!='' ? '0px': '27px'">
+                userPassword:
+               </div>
+       
+                    <input class="w-75" type="password" placeholder=" userPassword"  [(ngModel)]="data4">
+                </div>         
+               <div   class="w-75  m-auto ps-md-5 pb-2  pt-4"> <button style="background-color: #1ABC9C;color: white;" type="button" class="btn ">send Message</button></div>
+      
+            </div>
+  
+    </div>
+
+    </div>
+

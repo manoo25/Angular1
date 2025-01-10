@@ -1,0 +1,39 @@
+*{
+    transition: 0.8s;
+}
+.line{
+    height: 0.2rem;
+    width:100px;
+    background-color: #2C3E50;
+}
+.item{
+    cursor: pointer;
+}
+.cover{
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  
+}
+.cover span{
+    color: white;
+    font-size:85px;
+    font-weight: 700;
+    display: none;
+}
+.item:hover .cover{
+background-color: #1ebc9ce1;
+}
+.item:hover .cover span{
+display: block;
+}
+
+.slide-cover{
+    z-index: 10000;
+    position: fixed;
+    background-color: rgba(0, 89, 255, 0.432);
+}
